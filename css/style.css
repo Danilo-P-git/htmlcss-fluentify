@@ -29,10 +29,9 @@ header::after {
   background-image: url(../img/background-header.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: bottom right;
   position: absolute;
   bottom: 0;
-  left: 500px;
-
 }
 
 .container {
