@@ -140,12 +140,11 @@ header::after {
   color: #808080;
 }
 /* /subtitle */
-
+/* Tre box */
 .box {
   position: relative;
   float: left;
   width: 30%;
-  height: 300px;
   margin: 20px 1%
 }
 .left .img {
@@ -161,13 +160,39 @@ header::after {
   text-align: center;
   margin: 10px 0;
 }
+.box hr {
+  width: 20%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box p {
+  text-align: center;
+  color: #838383;
+}
+.middle .img {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/computer.svg);
+}
+.right .img {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/doc.svg);
+}
+main .container::after {
+  content: "";
+  display: block;
+  clear: both;
 
 }
-.center {
-  background-color: red;
-
-}
-.right {
-  background-color: red;
+/* /Tre box */
+/* Grafico finale */
 
 }
