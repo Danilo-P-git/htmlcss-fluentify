@@ -126,7 +126,7 @@ header::after {
 }
 
 /* /Header */
-
+/* subtitle */
 .sub-title {
   height: 140px;
   text-align: center;
@@ -139,4 +139,24 @@ header::after {
 }
 .sub-title p {
   color: #808080;
+}
+/* /subtitle */
+
+.box {
+  float: left;
+  width: 30%;
+  height: 300px;
+  margin: 0 1%
+}
+.left {
+  background-color: red;
+
+}
+.center {
+  background-color: red;
+
+}
+.right {
+  background-color: red;
+
 }
