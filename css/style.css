@@ -194,5 +194,67 @@ main .container::after {
 }
 /* /Tre box */
 /* Grafico finale */
-
+.mount {
+  float: left;
+  margin-top: 20px;
+  margin-right: 150px;
+  height: 500px;
+  width: 500px;
+  background-image: url(../img/mountain.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  padding: 150px;
+  margin-top: 50px;
+}
+hr {
+  width: 95%;
+  margin: auto;
+  color: #808080;
+}
+.text p {
+  color: #808080;
+  font-size: 20px;
+  margin-top: 15px;
+  line-height: 25px;
+}
+section .container::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* /Grafico finale */
+/* footer */
+footer {
+  height: 200px;
+  background-color: #d3d3d3;
+  margin-top: 30px;
+}
+.box-one {
+  float: left;
+  width: 50%;
+  margin: 40px 1%
+}
+.box-two {
+  float: left;
+  width: 15%;
+  margin-top: 40px;
+}
+.box-three {
+  float: left;
+  width: 30%;
+  margin-top: 40px;
+}
+.box-three button {
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 15px;
+  background-color: #7cbb02;
+  border: 1px solid #7cbb02;
+  border-radius: 7px;
+  color: #fff;
+}
+#secondbutton {
+margin-left: 50px
 }
