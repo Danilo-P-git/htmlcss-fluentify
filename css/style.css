@@ -143,13 +143,25 @@ header::after {
 /* /subtitle */
 
 .box {
+  position: relative;
   float: left;
   width: 30%;
   height: 300px;
-  margin: 0 1%
+  margin: 20px 1%
 }
-.left {
-  background-color: red;
+.left .img {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/profile.svg);
+}
+.box h2 {
+  color: #7cbb02;
+  text-align: center;
+  margin: 10px 0;
+}
 
 }
 .center {
