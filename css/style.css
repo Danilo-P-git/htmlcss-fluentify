@@ -258,3 +258,11 @@ footer {
 #secondbutton {
 margin-left: 50px
 }
+/* /footer */
+/* menu a tendina */
+.box-two select {
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: black;
+}
